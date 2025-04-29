@@ -1,0 +1,37 @@
+
+---
+
+### 🛑 `.gitignore`
+
+```gitignore
+# Compiled binaries
+*.out
+*.o
+*.exe
+*.bin
+
+# Default build artifacts
+tcp_echo_client
+tcp_echo_server
+udp_echo_client
+udp_echo_server
+tcp_chat_server
+udp_chat_server
+client
+
+# Makefile backup
+*~
+
+# Debug files
+core
+vgcore.*
+
+# Editor/IDE files
+.vscode/
+*.swp
+*.swo
+*.bak
+.DS_Store
+
+# Logs
+*.log
